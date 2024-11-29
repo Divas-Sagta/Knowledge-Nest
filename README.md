@@ -7,8 +7,8 @@
 ## **Features**
 
 ### **Authentication System**
-- Secure user registration, login, and logout using **JWT** and **bcrypt.js**.
-- Passwords are hashed for security.
+- Secure user ***registration***, ***login*** and ***logout*** using **JWT**.
+- Passwords are hashed for security using **bcrypt.js**.
 
 ### **Role-Based Access Control (RBAC)**
 - **Students**:
@@ -100,7 +100,7 @@ authenticated instructor not to authenticated students and routes like /home, /c
 
 ---
 
-## **Installation and Setup**
+## **Installation and Setup (To run Locally)**
 
 ### **Prerequisites**
 1. Install **Node.js** and **npm**.
@@ -109,7 +109,7 @@ authenticated instructor not to authenticated students and routes like /home, /c
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/Divas-Sagta/knowledge-nest.git
+git clone https://github.com/Divas-Sagta/Knowledge-Nest.git
 cd knowledge-nest
 ```
 ### **Backend Setup**
@@ -143,6 +143,10 @@ cd knowledge-nest
 2. Install dependencies:
    ```bash
    npm install
+3. Create a .env file in the client directory with the following variable:
+   ```bash
+   VITE_API_URL=http://localhost:${backend_server_port}
+
 3. Start the frontend server:
    ```bash
    npm run dev
