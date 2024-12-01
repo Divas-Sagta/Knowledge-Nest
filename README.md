@@ -1,3 +1,6 @@
+Note: Admin Email: divas@gmail.com
+      Admin Password: Divas123
+
 # **Knowledge Nest**
 
 **Knowledge Nest** is an innovative full-stack web application for online learning and course management. It bridges the gap between students and instructors by providing a secure platform where students can explore and enroll in courses, and instructors can create, manage, and analyze their course offerings with ease. The platform is designed to prioritize seamless user experiences and robust security through advanced ***authentication, authorization, and role-based access control (RBAC)***.
